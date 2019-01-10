@@ -1,0 +1,70 @@
+/*reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    // width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
+}
+
+img {
+    border: none;
+}
+
+a {
+    color: #363f44;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+
+a:hover,
+a:focus {
+    color: #141719;
+    text-decoration: none;
+}
+
+a,
+button,
+input,
+textarea,
+label,
+select {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    appearance: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+textarea {
+    resize: none;
+}
+
+;
+i,
+em {
+    font-style: normal;
+}

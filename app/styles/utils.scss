@@ -1,0 +1,23 @@
+/* Utils */
+.error-tip{ 
+    color: #f00;
+}
+
+.ellipsis{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.mw100, .mw100 *{
+    max-width: 100% !important;
+ }
+.break-word,.break-word * {
+    word-wrap: break-word!important;
+}
+.flex-c{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
